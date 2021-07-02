@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root{
+    --font-family:'Rubik', sans-serif;
+    --linear-gradient:linear-gradient(
+        to right top,
+         #00007c,
+          #4e009a,
+           #8302b5,
+            #b906cf,
+             #f00fe6);
+    --bg-color:  #31354D;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family) 
+}
+
+
+.container{
+    height: 100vh;
+    background-image: var(--linear-gradient) ;
+             display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.card{
+    background-color: var(--bg-color);
+    color: white;
+    width: 300px;
+    height: 498px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.symbol{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imag{
+    width: 143px;
+    border-radius: 50%;
+    margin: 3em 3em 1em 3em;
+}
+
+.button{
+    width: 7em;
+    height: 3em;
+    border-radius: 9px;
+    background-image: var(--linear-gradient);
+    color: white;
+    margin: 2em;
+}
+.cont{
+    line-height: 1em;
+    font-size: larger;
+
+}
+
+.design{
+    line-height: 1.5;
+    font-size: smaller;
+    color: dimgrey;
+}
+
+.about{
+    margin: 2em;
+    color: #C7CAD5;
+    font-size: 12px;
+}
+
+.im1{
+    padding-right: 199px;
+    margin: 1em 1px 1px 1px;
+    width: 1.3em;
+    color: #C1C5D5;
+}
+.im2{
+    width: 1.3em;
+    color: #C1C5D5;
+}
+.im3{
+    width: 1.3em;
+    color: #C1C5D5;
+}
